@@ -1,7 +1,10 @@
 function App() {
-  return <div className="App">
-    <h1>oi</h1>
-  </div>
+return(
+  <>
+  <EstiloGlobal />
+
+  </>
+)
 }
 
 export default App
