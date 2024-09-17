@@ -1,6 +1,6 @@
 const ListaDeTarefas = () => (
   <main>
-    <p>2 tarefas marcadas como &quot; categoria &ldquot; e &quot; termo &ldquot;</p>
+    <p>2 tarefas marcadas como: &quot;categoria&ldquo; e &quot;termo&ldquo;</p>
   </main>
 )
 

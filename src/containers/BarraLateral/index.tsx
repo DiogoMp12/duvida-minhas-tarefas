@@ -1,19 +1,20 @@
 import FiltroCard from '../../components/FiltroCard'
+import * as S from './styles'
 
 const BarraLateral = () => (
-  <aside>
+  <S.Aside>
     <div>
-      <input type="text" placeholder="Buscar" />
+      <S.Campo type="text" placeholder="Buscar" />
     </div>
-    <div>
-      <FiltroCard/>
-      <FiltroCard/>
-      <FiltroCard/>
-      <FiltroCard/>
-      <FiltroCard/>
-      <FiltroCard/>
-    </div>
-  </aside>
+    <S.Filtros>
+      <FiltroCard />
+      <FiltroCard />
+      <FiltroCard />
+      <FiltroCard />
+      <FiltroCard />
+      <FiltroCard ativo />
+    </S.Filtros>
+  </S.Aside>
 )
 
 export default BarraLateral
