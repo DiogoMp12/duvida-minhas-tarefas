@@ -1,5 +1,7 @@
 const ListaDeTarefas = () => (
   <main>
-    <p>2 tarefas marcadas como &quot;categoria &ldquot; e &quot; termo &ldquot;</p>
+    <p>2 tarefas marcadas como &quot; categoria &ldquot; e &quot; termo &ldquot;</p>
   </main>
 )
+
+export default ListaDeTarefas

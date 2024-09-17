@@ -1,8 +1,19 @@
-const BarraLateral
-= () => {
+import FiltroCard from '../../components/FiltroCard'
+
+const BarraLateral = () => (
   <aside>
-    Barra lateral
+    <div>
+      <input type="text" placeholder="Buscar" />
+    </div>
+    <div>
+      <FiltroCard/>
+      <FiltroCard/>
+      <FiltroCard/>
+      <FiltroCard/>
+      <FiltroCard/>
+      <FiltroCard/>
+    </div>
   </aside>
-}
+)
 
 export default BarraLateral
