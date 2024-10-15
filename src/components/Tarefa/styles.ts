@@ -1,9 +1,11 @@
 import styled from 'styled-components'
 import variaveis from '../../styles/variaveis'
 
+import * as enums from '../../utils/enums/Tarefa'
+
 type TagProps = {
-  prioridade?: string
-  status?: string
+  prioridade?: enums.Prioridades
+  status?: enums.Status
 }
 
 function retornaCorDeFundo(props: TagProps): string {
