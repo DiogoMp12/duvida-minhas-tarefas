@@ -1,4 +1,4 @@
-enum Prioridades{
+enum Prioridade{
   URGENTE = 'urgente',
   IMPORTANTE = 'importante',
   NORMAL = 'normal'
